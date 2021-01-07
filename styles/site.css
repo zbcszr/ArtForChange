@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0 auto;
+    line-height: 1.5em;
+}
+a{
+    color: rgb(42, 49, 68);
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(42, 49, 68);
+}
+p{
+    margin:10px 0;
+}
+label.logo{
+    color:white;
+    line-height: 50px;
+    padding:100px;
+    font-size: 30px;
+    font-weight:bold;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.clear{
+    clear: both;
+}
+
+.label_input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+nav{
+    background-color: rgb(71, 127, 173);
+    color: darkgray;
+    height: 50px;
+    width:100%;
+ }
+nav a{
+    color:white;
+ }
+
+nav h1{
+    float: left;
+    padding-top: 10px;
+}
+nav ul{
+    float:right;
+    list-style: none;
+    margin-right:10px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 5px;
+}
+nav ul li a{
+    color:white;
+    font-size:15px;
+    padding: 5px;
+    text-align: center;
+}
+nav ul li a:hover,
+nav ul li a.current{
+    color:black;
+}
+
+main{
+    padding: 10px;
+}
+
+/*showcase*/
+#showcase{
+    /* Image Source: (original work) BIXIN ZHANG */
+    background-image: url(/images/classroom3.jpg);
+    background-repeat: no-repeat;
+    height:500px;
+
+}
+#showcase .showcase-content{
+    color:black;
+    text-align:center;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 170px;
+}
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.5em;
+
+}
+#showcase .showcase-content p{
+    font-size: 16px;
+    line-height: 1.2em;
+    padding-bottom: 10px;
+    /* background: rgba(226, 226, 226, 0.4); */
+
+}
+body{
+    background-image: url;
+}
+.text-highlight{
+    color:rgb(71, 127, 173);
+}
+
+#showcase_shop{
+    /* Image Source: (original work) BIXIN ZHANG */
+    background-image: url(/images/classroom2.jpg);
+    background-repeat: no-repeat;
+    height:500px;
+    width: auto;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+.menu li a {
+    text-decoration: none;
+    position: relative;
+    color:rgb(42, 49, 68);
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: block;
+    overflow: hidden;
+    transition: 0.7s all;
+    padding: 14px 14px;
+    text-transform: uppercase;
+}
+
+.menu li a:before {
+    content: '';
+    width: 60px;
+    position: absolute;
+    border-bottom: 3px solid rgb(71, 127, 173);
+    bottom: 0;
+    right: 350px;
+    transition: 0.7s all;
+}
+.menu li a:hover:before {
+    right: 0;
+}
+
+
+
+#showcase_application{
+    /* Image Source: (original work) BIXIN ZHANG */
+    background-image: url(/images/classroom2.jpg);
+    background-repeat: no-repeat;
+    padding-block: 10px;
+    height:900px;
+
+}
+
+#application-form .form-info{
+    margin: 30px;
+    align-items: center;
+}
+
+#application-form label{
+    margin-bottom: 10px;
+    display: block;
+}
+
+#application-form input, #application-form textarea{
+    width: 100%;
+    padding:10px;
+    border:0.5px rgb(42, 49, 68) solid;
+}
+#application-form textarea{
+   height:200px;
+}
+
+#showcase_donation{
+    /*Image Source: (original work) BIXIN ZHANG */
+    background-image: url(/images/classroom3down.jpg);
+    background-repeat: no-repeat;
+    padding-block: 10px;
+    height:400px;
+}
+
+#donation-form .form-info{
+    margin: 1px;
+    align-items: left;
+    float: left;
+
+}
+#donation-form label{
+    margin-bottom: 10px;
+    display: block;
+
+}
+#donation-form input, #donation-form textarea{
+    width: 100%;
+    padding:10px;
+    border:0.5px rgb(42, 49, 68) solid;
+}
+
+#donation-form .artwork-info{
+    margin: 1px;
+    align-items: right;
+    float: right;
+}
+#footer-m{
+    padding-top: 50px;
+    text-align:center;
+    background:rgb(71,127,173);
+    color:white;
+    padding: 5px;
+}
+#submit{
+    margin: 10px;
+}
+#slider {
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 300%;
+}
+
+#slider figure img{
+    float: left;
+    width: 7%;
+}
+
+#artist-info{
+    height: 300px;
+}
+#artist-info .info-contentright{
+    float: right;
+    width:60%;
+    height:100%;
+    text-align: center;
+    padding: 20px 50px;
+}
+#artist-info .info-contentleft{
+    float: left;
+    width:60%;
+    height:100%;
+    text-align: center;
+    padding: 20px 50px;
+}
+#artist-info .info-img{
+    /*Image Source: (original work) BIXIN ZHANG */
+    padding-top: 30px;
+    float: left;
+    background-image: url(/images/classroom3down.jpg);
+    background-repeat: no-repeat;
+    width: 40%;
+    padding-block: 140px;
+}
+
+.art_gallery {
+
+    display:flex;
+    justify-content: space-evenly;
+    height:200px;
+    align-items: baseline;
+    align-content: flex-start;
+  }
+.art_gallery figure img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .art_gallery figcaption {
+    text-align: center;
+  }
+
+.middle {
+    position: relative;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .image {
+    position: relative;
+    width: 450px;
+    height: 350px;
+    left:10%;
+     cursor: pointer;
+} */
+
+.image {
+
+    width: 440px;
+    height: 300px;
+    overflow: hidden;
+    /* cursor: pointer; */
+}
+
+.image img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.image-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.image-content h1 {
+    color: rgb(71,127,173);
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.image:hover .image-content h1 {
+    transform: translateY(-20px);
+}
+
+.icon1 {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin: 10px 10px;
+    transform: translateY(80px);
+}
+.icon2 {
+    position: absolute;
+    right: 70px;
+    bottom: 40px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin: 10px 10px;
+    transform: translateY(80px);
+}
+.icon3 {
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin: 10px 10px;
+    transform: translateY(80px);
+}
+.image:hover .icon1, .image:hover .icon2,.image:hover .icon3 {
+    transform: translateY(0px);
+}
+.icon2 {
+    transition: transform 0.4s 0.05s, color 0.4s;
+}
+.icon1 {
+    transition: transform 0.4s 0.1s, color 0.4s;
+}
+.icon3 {
+    transition: transform 0.4s 0.15s, color 0.4s;
+}
+
+
+.image-content::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 0;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+    transition: 0.5s;
+}
+.image-content:hover::before {
+    height: 140px;
+}
+
+#add-tag-form .form-info, #delete-tag-form .form-info{
+    margin: 10px;
+    align-items: center;
+}
+
+
+#add-tag-form input, #delete-tag-form input{
+    width: 10%;
+    padding:10px;
+    border-radius:5px;
+    /* box-sizing: border-box; */
+}
