@@ -1,6 +1,6 @@
 # ArtForChange
 
-One of the things I decided to pick up during the start of quarantine was web development. I self studied HTML, CSS, and SQL in two weeks. This is the product of my "learn by doing" study principle and my attempt to solve real-world problems.
+One of the things I decided to pick up during the start of quarantine was web development. I self studied HTML, CSS, and SQL in a week. This is the product of my "learn by doing" study principle and my attempt to solve real-world problems.
 
 learning objectives: 
 - Develop the skills to translate client/customer requirements into a working implementation
