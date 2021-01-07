@@ -1,13 +1,7 @@
-# Project 3
+# ArtForChange
 
-See the course web page for the project's requirements.
+One of the things I decided to pick up during the start of quarantine was web development. I self studied HTML, CSS, and SQL in two weeks. This is the product of my "learn by doing" study principle and my attempt to solve real-world problems.
 
-# Submission Instructions
+## Tech Stack
 
-See the respective **submit-_milestone_.md** file for each submission.
-
-| Submission  | Instructions                       |
-| ----------- | ---------------------------------- |
-| Milestone 1 | [submit-m1.md](submit-m1.md)   |
-| Milestone 2 | [submit-m2.md](submit-m2.md)   |
-| Final       | [submit-FINAL.md](submit-FINAL.md) |
+HTML/CSS/PHP/SQL
